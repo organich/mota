@@ -1,0 +1,19 @@
+**/node_modules/**
+**/third_party/**
+**/source-maps/**
+
+lighthouse-cli/test/fixtures/byte-efficiency/bundle.js
+
+/dist/**
+
+coverage/**
+
+!.eslintrc.js
+
+lighthouse-core/lib/cdt/generated/SourceMap.js
+lighthouse-core/scripts/legacy-javascript/variants
+
+third-party/**
+
+# ignore d.ts files until we can properly lint them
+*.d.ts
